@@ -3,7 +3,7 @@
 
     
         <div class="header">
-            <span><a href="#">Magnity</a></span>
+            <span class="logo_magnity"><a href="#">Magnity</a></span>
             <button class="hamburger">&#9776;</button>
             <button class="cross">&#735;</button>
         </div>
@@ -19,10 +19,10 @@
                     <li>Manifesto</li>
                 </a>
                 <a href="#">
-                    <li>Transactions</li>
+                    <li>Références</li>
                 </a>
                 <a href="#">
-                    <li>Team</li>
+                    <li>Track Record</li>
                 </a>
                 <a href="#">
                     <li>Contact</li>

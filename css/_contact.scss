@@ -1,0 +1,28 @@
+#section_contact{
+    .wrapper_content{
+        .contact_wrapper_map{
+            #map {
+                margin-top: 10px;
+            }
+            a {
+                margin-top: 10px;
+                display: block;
+                font-style: italic; 
+                text-align: center;
+                text-decoration: none;
+                color: $bordeaux_magnity;
+            }
+        }
+        .wrapper_contact_info{
+            margin-top: 10px;
+            h3 {
+                margin-top: 10px;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                color: $bordeaux_magnity;
+            }
+        }
+    }
+}

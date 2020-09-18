@@ -1,0 +1,102 @@
+#section_about {
+    .wrapper_content{
+        .wrapper_one_profile {
+            padding: 10px;
+            .wrapper_one_profile_card {
+                width: 100%;
+                .wrapper_one_profile_card_name{
+                    h2 {
+                        text-transform: uppercase;
+                        margin-bottom: 5px;
+                    }
+                    span {
+                        display: block;
+                        font-style: italic;
+                    }
+                }
+                .wrapper_one_profile_card_pic {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                    img {
+                        max-width: 266px;
+                        width: 100%;
+                    }
+                }
+            }
+            .wrapper_one_ul {
+                margin-top: 10px;
+                ul{
+                    list-style: inside;
+                    list-style-type: disc;
+                    li{
+                        margin: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #section_about {
+        .wrapper_content{
+            .wrapper_one_profile {
+                padding: 10px;
+                width: 90%;
+                margin: 0 5%;
+                .wrapper_one_profile_card {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    max-width: 768px;
+                    margin-bottom: 20px;
+                    .wrapper_one_profile_card_name{
+                        text-align: end;
+                        h2 {
+                            text-transform: uppercase;
+                            margin-bottom: 5px;
+                        }
+                        span {
+                            display: block;
+                            font-style: italic;
+                        }
+                    }
+                    .wrapper_one_profile_card_pic {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 10px;
+                        img {
+                            max-width: 266px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .wrapper_uls {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    .wrapper_one_ul {
+                        width: 49%;
+                        margin-top: 10px;
+                        ul{
+                            list-style: inside;
+                            list-style-type: disc;
+                            li{
+                                margin: 10px;
+                            }
+                        }
+        
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+
